@@ -63,7 +63,7 @@ KernelsData RandomUniformKernelRef::GetKernelsData(const Params &params, const o
     FillCLKernelData(kernel_data.kernels[0], dispatch_data, params.engineInfo, kernelName, jit, entry_point, "", false,
                      false, 3);
 
-    KernelsData kernelsData;
+    KernelsData kernelsData;a
     kernelsData.push_back(std::move(kernel_data));
     return kernelsData;
 }
